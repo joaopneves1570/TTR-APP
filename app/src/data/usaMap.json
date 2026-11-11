@@ -1,6 +1,816 @@
 {
-    "nodes" : [
-        { "id": 1, "label" : "San-Francisco"},
-        {}
-    ]
+  "edition": "USA",
+  "directed": false,
+  "nodes": [
+    {
+      "id": "Atlanta"
+    },
+    {
+      "id": "Boston"
+    },
+    {
+      "id": "Calgary"
+    },
+    {
+      "id": "Charleston"
+    },
+    {
+      "id": "Chicago"
+    },
+    {
+      "id": "Dallas"
+    },
+    {
+      "id": "Denver"
+    },
+    {
+      "id": "Duluth"
+    },
+    {
+      "id": "El Paso"
+    },
+    {
+      "id": "Helena"
+    },
+    {
+      "id": "Houston"
+    },
+    {
+      "id": "Kansas City"
+    },
+    {
+      "id": "Las Vegas"
+    },
+    {
+      "id": "Little Rock"
+    },
+    {
+      "id": "Los Angeles"
+    },
+    {
+      "id": "Miami"
+    },
+    {
+      "id": "Montréal"
+    },
+    {
+      "id": "Nashville"
+    },
+    {
+      "id": "New Orleans"
+    },
+    {
+      "id": "New York"
+    },
+    {
+      "id": "Oklahoma City"
+    },
+    {
+      "id": "Omaha"
+    },
+    {
+      "id": "Phoenix"
+    },
+    {
+      "id": "Pittsburgh"
+    },
+    {
+      "id": "Portland"
+    },
+    {
+      "id": "Raleigh"
+    },
+    {
+      "id": "Saint Louis"
+    },
+    {
+      "id": "Salt Lake City"
+    },
+    {
+      "id": "San Francisco"
+    },
+    {
+      "id": "Santa Fe"
+    },
+    {
+      "id": "Sault St. Marie"
+    },
+    {
+      "id": "Seattle"
+    },
+    {
+      "id": "Toronto"
+    },
+    {
+      "id": "Vancouver"
+    },
+    {
+      "id": "Washington"
+    },
+    {
+      "id": "Winnipeg"
+    }
+  ],
+  "edges": [
+    {
+      "id": "rota_1",
+      "source": "Vancouver",
+      "target": "Seattle",
+      "length": 1,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_2",
+      "source": "Vancouver",
+      "target": "Seattle",
+      "length": 1,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_3",
+      "source": "Vancouver",
+      "target": "Calgary",
+      "length": 3,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_4",
+      "source": "Seattle",
+      "target": "Portland",
+      "length": 1,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_5",
+      "source": "Seattle",
+      "target": "Portland",
+      "length": 1,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_6",
+      "source": "Seattle",
+      "target": "Calgary",
+      "length": 4,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_7",
+      "source": "Seattle",
+      "target": "Helena",
+      "length": 6,
+      "color": "amarelo"
+    },
+    {
+      "id": "rota_8",
+      "source": "Portland",
+      "target": "San Francisco",
+      "length": 5,
+      "color": "verde"
+    },
+    {
+      "id": "rota_9",
+      "source": "Portland",
+      "target": "San Francisco",
+      "length": 5,
+      "color": "rosa"
+    },
+    {
+      "id": "rota_10",
+      "source": "Portland",
+      "target": "Salt Lake City",
+      "length": 6,
+      "color": "azul"
+    },
+    {
+      "id": "rota_11",
+      "source": "San Francisco",
+      "target": "Salt Lake City",
+      "length": 5,
+      "color": "laranja"
+    },
+    {
+      "id": "rota_12",
+      "source": "San Francisco",
+      "target": "Salt Lake City",
+      "length": 5,
+      "color": "branco"
+    },
+    {
+      "id": "rota_13",
+      "source": "San Francisco",
+      "target": "Los Angeles",
+      "length": 3,
+      "color": "amarelo"
+    },
+    {
+      "id": "rota_14",
+      "source": "San Francisco",
+      "target": "Los Angeles",
+      "length": 3,
+      "color": "rosa"
+    },
+    {
+      "id": "rota_15",
+      "source": "Los Angeles",
+      "target": "Las Vegas",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_16",
+      "source": "Los Angeles",
+      "target": "Phoenix",
+      "length": 3,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_17",
+      "source": "Los Angeles",
+      "target": "El Paso",
+      "length": 6,
+      "color": "preto"
+    },
+    {
+      "id": "rota_18",
+      "source": "Calgary",
+      "target": "Winnipeg",
+      "length": 6,
+      "color": "branco"
+    },
+    {
+      "id": "rota_19",
+      "source": "Calgary",
+      "target": "Helena",
+      "length": 4,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_20",
+      "source": "Helena",
+      "target": "Winnipeg",
+      "length": 4,
+      "color": "azul"
+    },
+    {
+      "id": "rota_21",
+      "source": "Helena",
+      "target": "Duluth",
+      "length": 6,
+      "color": "laranja"
+    },
+    {
+      "id": "rota_22",
+      "source": "Helena",
+      "target": "Omaha",
+      "length": 5,
+      "color": "vermelho"
+    },
+    {
+      "id": "rota_23",
+      "source": "Helena",
+      "target": "Denver",
+      "length": 4,
+      "color": "verde"
+    },
+    {
+      "id": "rota_24",
+      "source": "Helena",
+      "target": "Salt Lake City",
+      "length": 3,
+      "color": "rosa"
+    },
+    {
+      "id": "rota_25",
+      "source": "Salt Lake City",
+      "target": "Las Vegas",
+      "length": 3,
+      "color": "laranja"
+    },
+    {
+      "id": "rota_26",
+      "source": "Salt Lake City",
+      "target": "Denver",
+      "length": 3,
+      "color": "vermelho"
+    },
+    {
+      "id": "rota_27",
+      "source": "Salt Lake City",
+      "target": "Denver",
+      "length": 3,
+      "color": "amarelo"
+    },
+    {
+      "id": "rota_28",
+      "source": "Phoenix",
+      "target": "Denver",
+      "length": 5,
+      "color": "branco"
+    },
+    {
+      "id": "rota_29",
+      "source": "Phoenix",
+      "target": "Santa Fe",
+      "length": 3,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_30",
+      "source": "Phoenix",
+      "target": "El Paso",
+      "length": 3,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_31",
+      "source": "Denver",
+      "target": "Omaha",
+      "length": 4,
+      "color": "rosa"
+    },
+    {
+      "id": "rota_32",
+      "source": "Denver",
+      "target": "Kansas City",
+      "length": 4,
+      "color": "preto"
+    },
+    {
+      "id": "rota_33",
+      "source": "Denver",
+      "target": "Kansas City",
+      "length": 4,
+      "color": "laranja"
+    },
+    {
+      "id": "rota_34",
+      "source": "Denver",
+      "target": "Oklahoma City",
+      "length": 4,
+      "color": "vermelho"
+    },
+    {
+      "id": "rota_35",
+      "source": "Denver",
+      "target": "Santa Fe",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_36",
+      "source": "Santa Fe",
+      "target": "Oklahoma City",
+      "length": 3,
+      "color": "azul"
+    },
+    {
+      "id": "rota_37",
+      "source": "Santa Fe",
+      "target": "El Paso",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_38",
+      "source": "El Paso",
+      "target": "Oklahoma City",
+      "length": 5,
+      "color": "amarelo"
+    },
+    {
+      "id": "rota_39",
+      "source": "El Paso",
+      "target": "Dallas",
+      "length": 4,
+      "color": "vermelho"
+    },
+    {
+      "id": "rota_40",
+      "source": "El Paso",
+      "target": "Houston",
+      "length": 6,
+      "color": "verde"
+    },
+    {
+      "id": "rota_41",
+      "source": "Winnipeg",
+      "target": "Sault St. Marie",
+      "length": 6,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_42",
+      "source": "Winnipeg",
+      "target": "Duluth",
+      "length": 4,
+      "color": "preto"
+    },
+    {
+      "id": "rota_43",
+      "source": "Duluth",
+      "target": "Sault St. Marie",
+      "length": 3,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_44",
+      "source": "Duluth",
+      "target": "Toronto",
+      "length": 6,
+      "color": "rosa"
+    },
+    {
+      "id": "rota_45",
+      "source": "Duluth",
+      "target": "Chicago",
+      "length": 3,
+      "color": "vermelho"
+    },
+    {
+      "id": "rota_46",
+      "source": "Duluth",
+      "target": "Omaha",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_47",
+      "source": "Duluth",
+      "target": "Omaha",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_48",
+      "source": "Omaha",
+      "target": "Chicago",
+      "length": 4,
+      "color": "azul"
+    },
+    {
+      "id": "rota_49",
+      "source": "Omaha",
+      "target": "Kansas City",
+      "length": 1,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_50",
+      "source": "Omaha",
+      "target": "Kansas City",
+      "length": 1,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_51",
+      "source": "Kansas City",
+      "target": "Saint Louis",
+      "length": 2,
+      "color": "azul"
+    },
+    {
+      "id": "rota_52",
+      "source": "Kansas City",
+      "target": "Saint Louis",
+      "length": 2,
+      "color": "rosa"
+    },
+    {
+      "id": "rota_53",
+      "source": "Kansas City",
+      "target": "Oklahoma City",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_54",
+      "source": "Kansas City",
+      "target": "Oklahoma City",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_55",
+      "source": "Oklahoma City",
+      "target": "Little Rock",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_56",
+      "source": "Oklahoma City",
+      "target": "Dallas",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_57",
+      "source": "Oklahoma City",
+      "target": "Dallas",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_58",
+      "source": "Dallas",
+      "target": "Little Rock",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_59",
+      "source": "Dallas",
+      "target": "Houston",
+      "length": 1,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_60",
+      "source": "Dallas",
+      "target": "Houston",
+      "length": 1,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_61",
+      "source": "Houston",
+      "target": "New Orleans",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_62",
+      "source": "Sault St. Marie",
+      "target": "Montréal",
+      "length": 5,
+      "color": "preto"
+    },
+    {
+      "id": "rota_63",
+      "source": "Sault St. Marie",
+      "target": "Toronto",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_64",
+      "source": "Toronto",
+      "target": "Montréal",
+      "length": 3,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_65",
+      "source": "Toronto",
+      "target": "Pittsburgh",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_66",
+      "source": "Toronto",
+      "target": "Chicago",
+      "length": 4,
+      "color": "branco"
+    },
+    {
+      "id": "rota_67",
+      "source": "Chicago",
+      "target": "Pittsburgh",
+      "length": 3,
+      "color": "laranja"
+    },
+    {
+      "id": "rota_68",
+      "source": "Chicago",
+      "target": "Pittsburgh",
+      "length": 3,
+      "color": "preto"
+    },
+    {
+      "id": "rota_69",
+      "source": "Chicago",
+      "target": "Saint Louis",
+      "length": 2,
+      "color": "verde"
+    },
+    {
+      "id": "rota_70",
+      "source": "Chicago",
+      "target": "Saint Louis",
+      "length": 2,
+      "color": "branco"
+    },
+    {
+      "id": "rota_71",
+      "source": "Saint Louis",
+      "target": "Pittsburgh",
+      "length": 5,
+      "color": "verde"
+    },
+    {
+      "id": "rota_72",
+      "source": "Saint Louis",
+      "target": "Nashville",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_73",
+      "source": "Saint Louis",
+      "target": "Little Rock",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_74",
+      "source": "Little Rock",
+      "target": "Nashville",
+      "length": 3,
+      "color": "branco"
+    },
+    {
+      "id": "rota_75",
+      "source": "Little Rock",
+      "target": "New Orleans",
+      "length": 3,
+      "color": "verde"
+    },
+    {
+      "id": "rota_76",
+      "source": "Montréal",
+      "target": "Boston",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_77",
+      "source": "Montréal",
+      "target": "Boston",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_78",
+      "source": "Montréal",
+      "target": "New York",
+      "length": 3,
+      "color": "azul"
+    },
+    {
+      "id": "rota_79",
+      "source": "Boston",
+      "target": "New York",
+      "length": 2,
+      "color": "amarelo"
+    },
+    {
+      "id": "rota_80",
+      "source": "Boston",
+      "target": "New York",
+      "length": 2,
+      "color": "vermelho"
+    },
+    {
+      "id": "rota_81",
+      "source": "New York",
+      "target": "Pittsburgh",
+      "length": 2,
+      "color": "branco"
+    },
+    {
+      "id": "rota_82",
+      "source": "New York",
+      "target": "Pittsburgh",
+      "length": 2,
+      "color": "verde"
+    },
+    {
+      "id": "rota_83",
+      "source": "New York",
+      "target": "Washington",
+      "length": 2,
+      "color": "laranja"
+    },
+    {
+      "id": "rota_84",
+      "source": "New York",
+      "target": "Washington",
+      "length": 2,
+      "color": "preto"
+    },
+    {
+      "id": "rota_85",
+      "source": "Pittsburgh",
+      "target": "Washington",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_86",
+      "source": "Pittsburgh",
+      "target": "Raleigh",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_87",
+      "source": "Pittsburgh",
+      "target": "Nashville",
+      "length": 4,
+      "color": "amarelo"
+    },
+    {
+      "id": "rota_88",
+      "source": "Washington",
+      "target": "Raleigh",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_89",
+      "source": "Washington",
+      "target": "Raleigh",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_90",
+      "source": "Raleigh",
+      "target": "Nashville",
+      "length": 3,
+      "color": "preto"
+    },
+    {
+      "id": "rota_91",
+      "source": "Raleigh",
+      "target": "Atlanta",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_92",
+      "source": "Raleigh",
+      "target": "Atlanta",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_93",
+      "source": "Raleigh",
+      "target": "Charleston",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_94",
+      "source": "Nashville",
+      "target": "Atlanta",
+      "length": 1,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_95",
+      "source": "Atlanta",
+      "target": "Charleston",
+      "length": 2,
+      "color": "cinza"
+    },
+    {
+      "id": "rota_96",
+      "source": "Atlanta",
+      "target": "Miami",
+      "length": 5,
+      "color": "azul"
+    },
+    {
+      "id": "rota_97",
+      "source": "Atlanta",
+      "target": "New Orleans",
+      "length": 4,
+      "color": "amarelo"
+    },
+    {
+      "id": "rota_98",
+      "source": "Atlanta",
+      "target": "New Orleans",
+      "length": 4,
+      "color": "laranja"
+    },
+    {
+      "id": "rota_99",
+      "source": "Charleston",
+      "target": "Miami",
+      "length": 4,
+      "color": "rosa"
+    },
+    {
+      "id": "rota_100",
+      "source": "New Orleans",
+      "target": "Miami",
+      "length": 6,
+      "color": "vermelho"
+    }
+  ]
 }

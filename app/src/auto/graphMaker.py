@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 # Abreviações das cores para manter a lista limpa e legível
 cz = "cinza"
@@ -149,8 +150,13 @@ grafo = {
     "edges": edges
 }
 
+pasta = Path("../data")
+pasta.mkdir(parents=True, exist_ok=True)
+
+caminho = pasta/"usaMap.json"
+
 # Gera o arquivo JSON
-with open("ticket_to_ride_usa.json", "w", encoding="utf-8") as arquivo:
+with open(caminho, "w", encoding="utf-8") as arquivo:
     json.dump(grafo, arquivo, ensure_ascii=False, indent=2)
 
 print(f"Arquivo gerado com sucesso: {len(nodes)} cidades e {len(edges)} rotas!")
